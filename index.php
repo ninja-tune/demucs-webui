@@ -48,10 +48,10 @@
 	});
 	</script>
 
-	<!-- echo out phpinfo -->
+	<!-- echo out phpinfo
 	<?php
 	phpinfo();
-	?>
+	?> -->
 </body>
 
 
