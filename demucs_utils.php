@@ -10,7 +10,7 @@ function process_demucs($inputFile, $model, $stems) {
         mkdir($outputBaseDir);
     }
 
-    $cmd = "demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
+    $cmd = "python3 -m demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
     $output = [];
     $returnCode = 0;
 
