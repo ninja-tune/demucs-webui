@@ -10,17 +10,7 @@ function process_demucs($inputFile, $model, $stems) {
         mkdir($outputBaseDir);
     }
 
-
-    if (strtoupper(substr(PHP_OS, 0, 3)) === 'DAR') {
-        // Mac environment
-        $cmd = "/Users/elliotseeds/.pyenv/shims/demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
-    } else {
-        // Linux environment (replace '/path/to/demucs' with the actual path)
-        $cmd = "python3 /home/elliot/.local/bin/demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
-    }
-
-
-
+    $cmd = "python3 -m demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
     $output = [];
     $returnCode = 0;
 
