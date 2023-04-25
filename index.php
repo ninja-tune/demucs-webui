@@ -47,7 +47,13 @@
 		document.getElementById('waiting-container').style.display = 'block';
 	});
 	</script>
+
+	<!-- echo out phpinfo -->
+	<?php
+	phpinfo();
+	?>
 </body>
+
 
 
 </html>
