@@ -16,7 +16,7 @@ function process_demucs($inputFile, $model, $stems) {
         $cmd = "/Users/elliotseeds/.pyenv/shims/demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
     } else {
         // Linux environment (replace '/path/to/demucs' with the actual path)
-        $cmd = "/home/elliot/.local/bin/demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
+        $cmd = "python3 /home/elliot/.local/bin/demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
     }
 
 
