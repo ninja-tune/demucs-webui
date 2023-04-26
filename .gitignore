@@ -1,3 +1,4 @@
 output/*
 uploads/*
 .htaccess
+env.php
