@@ -47,10 +47,10 @@
 		document.getElementById('waiting-container').style.display = 'block';
 	});
 	</script>
-
+	<!-- 
 	<?php
 	phpinfo();
-	?>
+	?> -->
 </body>
 
 
