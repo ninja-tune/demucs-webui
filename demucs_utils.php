@@ -1,5 +1,11 @@
 <?php
+include 'env.php';
+
+$pythonVersion = exec('python3 --version 2>&1');
+echo "Python version: " . $pythonVersion;
+
 function process_demucs($inputFile, $model, $stems) {
+    $demucsPath = getenv('DEMUCS_PATH');
     $outputBaseDir = 'output';
     $outputDir = $outputBaseDir . '/' . uniqid('output_', true);
     $outputZip = $outputDir . '.zip';
@@ -10,11 +16,17 @@ function process_demucs($inputFile, $model, $stems) {
         mkdir($outputBaseDir);
     }
 
-    $cmd = "python3 -m demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
+    $cmd = "$demucsPath/demucs -n $model $stems $escapedInputFile -o $escapedOutputDir 2>&1";
     $output = [];
     $returnCode = 0;
 
+    
     exec($cmd, $output, $returnCode);
+    
+    echo "Command: $cmd<br>";
+    echo "Output:<br>";
+    echo implode("<br>", $output) . "<br>";
+    echo "Return code: $returnCode<br>";
 
     if ($returnCode === 0) {
         // Create a zip file from the output folder
