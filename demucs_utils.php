@@ -37,6 +37,9 @@ function process_demucs($inputFile, $model, $stems) {
         $delCmd = "rm -rf $outputDir";
         exec($delCmd);
 
+        // Delete the original upload file
+        unlink($inputFile);
+
         return $returnCode === 0 ? $outputZip : false;
     } else {
         return false;

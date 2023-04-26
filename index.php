@@ -13,6 +13,9 @@
 
 <body>
 	<h1>Demucs Web UI</h1>
+	<p>This is purely proof of concept - and is very slow as there is no hardware accelation currently on this
+		machine. I suggest using short ~15s clips to purely to audit the Demucs stem seperation algorithm</p>
+
 	<form id="demucs-form" action="process.php" method="post" enctype="multipart/form-data">
 		<label for="file">Upload WAV file:</label>
 		<input type="file" name="file" id="file" accept=".wav" required><br><br>
@@ -42,6 +45,12 @@
 		</div>
 	</div>
 
+	<h3>Todo</h3>
+	<ul>
+		<li>Cronjob to clear out old zips</li>
+		<li>Add additional models for testing</li>
+		<li>Add gpu to instance</li>
+	</ul>
 	<script>
 	document.getElementById('demucs-form').addEventListener('submit', function() {
 		document.getElementById('waiting-container').style.display = 'block';
