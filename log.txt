@@ -1,22 +1,27 @@
 demucs path=/Users/elliotseeds/.pyenv/shims/demucs
 
 
-folderPath=b257af93-f503-4636-bc7a-f64bc9161268
+folderPath=c650735b-1a53-4cad-8476-508f26dc72aa
 
 
 fileName=02_Nabihah_Iqbal_Something_More copy.wav
 
 
-inputFile=uploads/b257af93-f503-4636-bc7a-f64bc9161268/02_Nabihah_Iqbal_Something_More copy.wav modelType=htdemucs emailRecipient=elliot@ninjatune.net stemsType=--two-stems=vocals
+inputFile=uploads/c650735b-1a53-4cad-8476-508f26dc72aa/02_Nabihah_Iqbal_Something_More copy.wav modelType=htdemucs_ft emailRecipient=elliot@ninjatune.net stemsType=
 
 
-Selected model is a bag of 1 models. You will see that many progress bars per track.
-Separated tracks will be stored in /Users/elliotseeds/Documents/Artist-Sites/demucs-bash/processing/b257af93-f503-4636-bc7a-f64bc9161268/htdemucs
-Separating track uploads/b257af93-f503-4636-bc7a-f64bc9161268/02_Nabihah_Iqbal_Something_More copy.wav
-  0%|                                                                     | 0.0/35.099999999999994 [00:00<?, ?seconds/s] 17%|██████████                                                  | 5.85/35.099999999999994 [00:02<00:14,  2.06seconds/s] 33%|████████████████████                                        | 11.7/35.099999999999994 [00:05<00:11,  2.08seconds/s] 50%|███████████████████████                       | 17.549999999999997/35.099999999999994 [00:08<00:08,  2.07seconds/s] 67%|████████████████████████████████████████                    | 23.4/35.099999999999994 [00:11<00:05,  2.07seconds/s] 83%|█████████████████████████████████████████████████▏         | 29.25/35.099999999999994 [00:14<00:02,  2.03seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:17<00:00,  2.03seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:17<00:00,  2.05seconds/s]
-  adding: processing/b257af93-f503-4636-bc7a-f64bc9161268/ (stored 0%)
-  adding: processing/b257af93-f503-4636-bc7a-f64bc9161268/htdemucs/ (stored 0%)
-  adding: processing/b257af93-f503-4636-bc7a-f64bc9161268/htdemucs/02_Nabihah_Iqbal_Something_More copy/ (stored 0%)
-  adding: processing/b257af93-f503-4636-bc7a-f64bc9161268/htdemucs/02_Nabihah_Iqbal_Something_More copy/vocals.wav (deflated 6%)
-  adding: processing/b257af93-f503-4636-bc7a-f64bc9161268/htdemucs/02_Nabihah_Iqbal_Something_More copy/no_vocals.wav (deflated 2%)
+Selected model is a bag of 4 models. You will see that many progress bars per track.
+Separated tracks will be stored in /Users/elliotseeds/Documents/Artist-Sites/demucs-bash/processing/c650735b-1a53-4cad-8476-508f26dc72aa/htdemucs_ft
+Separating track uploads/c650735b-1a53-4cad-8476-508f26dc72aa/02_Nabihah_Iqbal_Something_More copy.wav
+  0%|                                                                     | 0.0/35.099999999999994 [00:00<?, ?seconds/s] 17%|██████████                                                  | 5.85/35.099999999999994 [00:02<00:14,  2.08seconds/s] 33%|████████████████████                                        | 11.7/35.099999999999994 [00:05<00:11,  2.10seconds/s] 50%|███████████████████████                       | 17.549999999999997/35.099999999999994 [00:08<00:08,  2.10seconds/s] 67%|████████████████████████████████████████                    | 23.4/35.099999999999994 [00:11<00:05,  2.07seconds/s] 83%|█████████████████████████████████████████████████▏         | 29.25/35.099999999999994 [00:14<00:02,  2.07seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.08seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.08seconds/s]
+  0%|                                                                     | 0.0/35.099999999999994 [00:00<?, ?seconds/s] 17%|██████████                                                  | 5.85/35.099999999999994 [00:02<00:13,  2.11seconds/s] 33%|████████████████████                                        | 11.7/35.099999999999994 [00:05<00:11,  2.11seconds/s] 50%|███████████████████████                       | 17.549999999999997/35.099999999999994 [00:08<00:08,  2.10seconds/s] 67%|████████████████████████████████████████                    | 23.4/35.099999999999994 [00:11<00:05,  2.07seconds/s] 83%|█████████████████████████████████████████████████▏         | 29.25/35.099999999999994 [00:14<00:02,  2.06seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.07seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.08seconds/s]
+  0%|                                                                     | 0.0/35.099999999999994 [00:00<?, ?seconds/s] 17%|██████████                                                  | 5.85/35.099999999999994 [00:02<00:14,  2.07seconds/s] 33%|████████████████████                                        | 11.7/35.099999999999994 [00:05<00:11,  2.09seconds/s] 50%|███████████████████████                       | 17.549999999999997/35.099999999999994 [00:08<00:08,  2.09seconds/s] 67%|████████████████████████████████████████                    | 23.4/35.099999999999994 [00:11<00:05,  2.11seconds/s] 83%|█████████████████████████████████████████████████▏         | 29.25/35.099999999999994 [00:13<00:02,  2.11seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.13seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.11seconds/s]
+  0%|                                                                     | 0.0/35.099999999999994 [00:00<?, ?seconds/s] 17%|██████████                                                  | 5.85/35.099999999999994 [00:02<00:13,  2.10seconds/s] 33%|████████████████████                                        | 11.7/35.099999999999994 [00:05<00:11,  2.11seconds/s] 50%|███████████████████████                       | 17.549999999999997/35.099999999999994 [00:08<00:08,  2.10seconds/s] 67%|████████████████████████████████████████                    | 23.4/35.099999999999994 [00:11<00:05,  2.10seconds/s] 83%|█████████████████████████████████████████████████▏         | 29.25/35.099999999999994 [00:13<00:02,  2.11seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.12seconds/s]100%|██████████████████████████████████████████████| 35.099999999999994/35.099999999999994 [00:16<00:00,  2.11seconds/s]
+  adding: processing/c650735b-1a53-4cad-8476-508f26dc72aa/ (stored 0%)
+  adding: processing/c650735b-1a53-4cad-8476-508f26dc72aa/htdemucs_ft/ (stored 0%)
+  adding: processing/c650735b-1a53-4cad-8476-508f26dc72aa/htdemucs_ft/02_Nabihah_Iqbal_Something_More copy/ (stored 0%)
+  adding: processing/c650735b-1a53-4cad-8476-508f26dc72aa/htdemucs_ft/02_Nabihah_Iqbal_Something_More copy/drums.wav (deflated 5%)
+  adding: processing/c650735b-1a53-4cad-8476-508f26dc72aa/htdemucs_ft/02_Nabihah_Iqbal_Something_More copy/vocals.wav (deflated 6%)
+  adding: processing/c650735b-1a53-4cad-8476-508f26dc72aa/htdemucs_ft/02_Nabihah_Iqbal_Something_More copy/other.wav (deflated 5%)
+  adding: processing/c650735b-1a53-4cad-8476-508f26dc72aa/htdemucs_ft/02_Nabihah_Iqbal_Something_More copy/bass.wav (deflated 5%)
 Sending completion email
