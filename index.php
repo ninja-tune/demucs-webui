@@ -34,6 +34,8 @@
 	<div id="completion-message" style="display: none;">
 		<h3>File uploaded successfully!</h3>
 		<p>Your processed files will be emailed to you when the process is complete.</p>
+		<br>
+		<a href=".">Back to main page</a>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
