@@ -9,9 +9,9 @@
 </head>
 
 <body>
-	<h1>AI Stem Extractor</h1>
-	<p>Proof of concept, runs slower than real time so best to test with short audio!</p>
 	<form id="myForm">
+		<h1>AI Stem Extractor</h1>
+		<p>Proof of concept, runs slower than real time so best to test with short audio!</p>
 		<label for="model">Choose a model:</label>
 		<select name="model" id="model">
 			<option value="htdemucs">MQ (Fast)</option>
