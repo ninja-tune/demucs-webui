@@ -1,4 +1,1 @@
-output/*
-uploads/*
-.htaccess
-env.php
+.env
