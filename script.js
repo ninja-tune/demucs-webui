@@ -18,6 +18,8 @@ $(document).ready(function () {
 		// Hide the form and reset the completion message
 		$("#myForm").hide();
 		$("#completion-message").hide();
+		$("#progress").show();
+
 
 		const totalChunks = Math.ceil(file.size / chunkSize);
 		for (let chunkIndex = 0; chunkIndex < totalChunks; chunkIndex++) {
