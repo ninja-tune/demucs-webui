@@ -23,9 +23,9 @@
 			<option value=" ">vox + bass + drums + other</option>
 		</select>
 		<label for="emailAddress">Your email address (this is where files will be sent on completion):</label>
-		<input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address">
+		<input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address" required>
 		<label for="file">Upload a WAV:</label>
-		<input type="file" name="file" id="file" accept=".wav">
+		<input type="file" name="file" id="file" accept=".wav" required>
 		<button type="submit">Submit</button>
 	</form>
 	<div id="progress">
